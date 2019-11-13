@@ -13,7 +13,7 @@ class Project extends Component {
             <h1>{this.props.title}</h1>
             <span>{this.props.service}</span>
         </div> 
-            </Fade>);
+        </Fade>);
     }
 }
  

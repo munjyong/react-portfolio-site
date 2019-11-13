@@ -9,12 +9,9 @@ body{
   z-index: 1;
 }
 
-
 .App {
   text-align: center;
 }
-
-
 
 .App-header {
   position: relative;
@@ -25,6 +22,7 @@ body{
   color: black;
   top:4em;
 }
+
 .heading-background{
   position: fixed;
   opacity: 0.05;
@@ -48,26 +46,31 @@ margin-right: 50em;
 }
 nav{
   position:fixed;
-  left:60em;
+  right:95rem;
   top:6em;
-z-index: 100;
+  z-index: 100;
 }
 nav li{
-  display: inline-block;
+  /* display: inline-block;
+  vertical-align: middle; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-
 }
 nav li .link{
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   padding:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
+
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
+
 li .link:hover{
   opacity: 1;
 }
