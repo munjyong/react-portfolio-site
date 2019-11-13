@@ -4,7 +4,7 @@ export default
         //Change The Website Template
         name :'chetanverma.',
         headerTagline: [//Line 1 For Header
-                        'Hi 👋 You found me! I am Your Name.',
+                        'Hi! You found me! I am Edmund.',
                         //Line 2 For Header
                         'Digital designer ',
                         //Line 3 For Header
