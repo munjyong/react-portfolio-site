@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import data from '../yourdata'
+import data from '../data'
 
 
 class Header extends Component {
@@ -17,7 +17,8 @@ class Header extends Component {
                 <Fade bottom>
                 <p className='header-title'>
                     {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
-                    {data.headerTagline[2]}
+                    {data.headerTagline[2]}<br></br>
+                    {data.headerTagline[3]}
                 </p>
                 </Fade>
             </div>
