@@ -18,7 +18,8 @@ class Header extends Component {
                 <p className='header-title'>
                     {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
                     {data.headerTagline[2]}<br></br>
-                    {data.headerTagline[3]}
+                    {data.headerTagline[3]}<br></br>
+                    {data.headerTagline[4]}
                 </p>
                 </Fade>
             </div>

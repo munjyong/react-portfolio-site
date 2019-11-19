@@ -3,23 +3,23 @@ export default
         //(Please Do Not Remove The comma(,) after every variable)
         //Change The Website Template
         name :'',
-        headerTagline: [//Line 1 For Header
-                        'Hello! I am Edmund.',
-                        //Line 2 For Header
-                        ' ',
-                        'Web Developer 👨‍💻',
-                        //Line 3 For Header
-                        'from England 🇬🇧'
+        headerTagline: 
+        [
+            'Hello! I am Edmund.',
+            ' ',
+            'Front End Web Developer 👨‍💻',
+            '',
+            'from England 🇬🇧'
         ],
         //Contact Email
         contactEmail:'munjyong@gmail.com',
         // Add Your About Text Here
-        abouttext: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        abouttext: "Tech enthusiast and recent Computer Science graduate seeking to kickstart web development career. I strive to develop functional applications accompanied by pleasant user experiences. The purpose of this website is to serve some of the projects that demonstrate the skills I have learned through self-study and online courses I have completed to help me learn web development.",
         aboutImage:'',
        //Change This To Hide The Image of About Section (True Or False)
-       ShowAboutImage:true,//true or false (Change Here)
+        ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here 
-       projects:[
+        projects:[
             {
                 id: 1,//DO NOT CHANGE THIS 
                 title:'Project One', //Project Title - Add Your Project Title Here
