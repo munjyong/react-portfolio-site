@@ -22,12 +22,12 @@ export default
         projects:[
             {
                 id: 1,//DO NOT CHANGE THIS 
-                title:'Project One', //Project Title - Add Your Project Title Here
-                service:'UI/UX Design', // Add Your Service Type Here
+                title:'Tetris', //Project Title - Add Your Project Title Here
+                service:'Created with React & React Hooks', // Add Your Service Type Here
                 //Project Image - Add Your Project Image Here
-                imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+                imageSrc:"https://i.imgur.com/c5luxxM.png",
                 //Project URL - Add Your Project Url Here
-                url:'http://chetanverma.com/'
+                url:'https://react-tetris-munjyong.netlify.com/'
             },
             {
                 id: 2,//DO NOT CHANGE THIS 
