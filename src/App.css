@@ -307,18 +307,24 @@ li .link:hover {
   
 }
 
-/* iPads (portrait and landscape) ----------- */
+/* TABLETS PORTRAIT AND LANDSCAPE (iPad) */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-
   body {
-    font-size: 10px;
+    font-size: 5px;
   }
 
-  header h1 {
-    font-size: 5em;
-    padding: 1em;
-    margin-right: 0em;
+  .App-header {
+    position: relative;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+
+  .heading-background {
+    display: none;
   }
 
   nav {
@@ -326,16 +332,14 @@ li .link:hover {
   }
 
   .header-title {
-    font-size: 3.6em;
-    text-align: left;
-    top: 1em;
-    left: 1em;
+    font-size: 8em;
+    text-align: center;
   }
 
   .about {
     position: relative;
     display: flex;
-    top: -10em;
+    text-align: left;
   }
 
   .about img {
@@ -343,48 +347,83 @@ li .link:hover {
   }
 
   .about-content {
-    left: 6em;
+    text-align: left;
+  }
+
+  .about-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8em;
+    text-align: left;
+    margin: 0.5em;
   }
 
   .about-content p {
-    font-size: 5em;
-    text-align: center;
-    width: 100%;
+    font-size: 3.3em;
+    text-align: left;
+    margin: 1em;
+    width: auto;
   }
 
   .work {
-    left: 6em;
-    top: 4em;
-    align-items: flex-start;
+    align-items: center;
+    margin: 5em;
   }
 
   .work .work-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 5em;
   }
 
-  .project img {
-    width: 30em;
-    height: 30em;
+  .projects-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8em;
+    text-align: left;
+    margin: 0.4em;
   }
 
-  .contact {
-    top: 15em;
-    left: 6em;
+  .work .work-content .project {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
   }
 
-  .contact h1 {
+  .work .work-content .project h1 {
     font-size: 4em;
   }
 
-  .contact .email {
-    font-size: 3.5em;
+  .work .work-content .project span {
+    font-size: 2.5em;
+  }
+
+  .project img {
+    width: 60em;
+    height: 60em;
+    margin: 1em;
+  }
+
+  .contact {
+    text-align: ;
+  }
+
+  .contact-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8em;
+    text-align: center;
+    margin: 0.4em;
+    margin-top: 1em;
+  }
+
+  .contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .contact li {
     display: block;
-    padding: 2em;
   }
 
   .contact li a {

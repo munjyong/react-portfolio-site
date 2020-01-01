@@ -7,7 +7,7 @@ export default
         [
             'Hello! I am Edmund.',
             ' ',
-            'Front End Web Developer 👨‍💻',
+            'Web Developer 👨‍💻',
             '',
             'from England 🇬🇧'
         ],
