@@ -14,7 +14,7 @@ export default
         //Contact Email
         contactEmail:'munjyong@gmail.com',
         // Add Your About Text Here
-        abouttext: "Tech enthusiast and recent Computer Science graduate seeking to kickstart web development career. I strive to develop functional applications accompanied by pleasant user experiences. The purpose of this website is to serve some of the projects that demonstrate the skills I have learned through self-study and online courses I have completed to help me learn web development.",
+        abouttext: "I am a recent Computer Science graduate seeking to kickstart my web development career. My passion for learning drives me to challenge myself, experiment with new tools and most important... to create. The projects on this site demonstrate skills I have utilized through self-study and online courses, with each project presenting unique challenges I hope keep on diversifying this portfolio in the near future.",
         aboutImage:'',
        //Change This To Hide The Image of About Section (True Or False)
         ShowAboutImage:true,//true or false (Change Here)

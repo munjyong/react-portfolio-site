@@ -8,7 +8,7 @@ class About extends Component {
         return (
             <div className='about'>
                 <div className='about-content'>
-                <h1><Fade bottom cascade>About.</Fade></h1>
+                <h1><Fade bottom cascade>Objective.</Fade></h1>
                 <Fade bottom>
                         <p>{data.abouttext}</p>
                 </Fade>
